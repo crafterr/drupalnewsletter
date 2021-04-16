@@ -1,0 +1,17 @@
+newsletterapi.newsletter_configuration_form:
+  path: '/admin/config/newsletterapi/newsletterconfiguration'
+  defaults:
+    _form: '\Drupal\newsletterapi\Form\NewsletterConfigurationForm'
+    _title: 'NewsletterConfigurationForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+newsletterapi.newsletter_form:
+  path: '/newsletter-test'
+  defaults:
+    _form: '\Drupal\newsletterapi\Form\NewsletterForm'
+    _title: 'NewsletterForm'
+  requirements:
+    _access: 'TRUE'

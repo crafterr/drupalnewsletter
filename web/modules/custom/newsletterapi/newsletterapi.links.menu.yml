@@ -1,0 +1,6 @@
+newsletterapi.newsletter_configuration_form:
+  title: 'Newsletter Api Configuration'
+  route_name: newsletterapi.newsletter_configuration_form
+  description: 'All configuration for newsletter api module'
+  parent: system.admin_config_system
+  weight: 99

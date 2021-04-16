@@ -1,0 +1,5 @@
+name: 'NewsletterApi'
+type: module
+description: 'Newsletter form with fields to send to api.'
+core: 8.x
+package: 'Custom'

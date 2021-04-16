@@ -1,0 +1,8 @@
+newsletterapi.newsletterconfiguration:
+  type: config_object
+  label: 'Newsletter Api Configuration'
+  mapping:
+    url_endpoint:
+      type: string
+      label: 'Url Endpoint'
+

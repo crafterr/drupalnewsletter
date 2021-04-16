@@ -1,0 +1,4 @@
+services:
+  newsletterapi.jsonfixer:
+    class: Drupal\newsletterapi\JsonFixerService
+    arguments: []
